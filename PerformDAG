@@ -1,0 +1,30 @@
+#!/bin/bash
+
+
+### Job Name
+#SBATCH --job-name=PerformExperimentDAG
+
+### Set email type for job
+### Accepted options: NONE, BEGIN, END, FAIL, ALL
+#SBATCH --mail-type=END
+
+### email address for user
+###SBATCH --mail-user=None
+
+### Queue name that job is submitted to
+#SBATCH --partition=tango
+
+### Request resources
+#SBATCH --ntasks=4
+#SBATCH --mem=64gb
+
+echo Running on host `hostname`
+echo Time is `date`
+
+module load miniconda
+source activate pythontrahx001
+
+
+
+Rscript DAGAdult.R
+#python GenerateEmplFinalResults.py
