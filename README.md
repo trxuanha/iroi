@@ -31,6 +31,6 @@ Infrastructure used to run experiments:
 * CPU: Intel(R) Xeon(R) Gold 6246 CPU @ 3.30GHz).
 * RAM: 16 GB.
 
-# Reproduce results in the paper
+# Run with public datasets
 
     Run shell scripts: PerformExperiments.
