@@ -1,6 +1,8 @@
 # IROI
 
-A R implementation of Intervention Recommendation for Outcome Improvement (IROI) in paper "Intervention Recommendation for Improving Disability Employment".
+A R implementation of Intervention Recommendation for Outcome Improvement (IROI) in paper "Intervention Recommendation for Improving Disability Employment". In 2020 IEEE International Conference on Big Data (IEEE BigData 2020), pages 1671-1680.
+
+This paper can be found at: https://ieeexplore.ieee.org/document/9378350
 
 # Public datasets
 
